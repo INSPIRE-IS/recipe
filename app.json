@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "MidasMobi",
-    "slug": "MidasMobi",
+    "name": "Recipe",
+    "slug": "Recipe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "Midas-Mobi",
+    "scheme": "Recipe",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",

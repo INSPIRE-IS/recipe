@@ -1,11 +1,4 @@
  1  git status
-    2  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPI/_git/ECGBMobileAPI
-    3  git push -u origin --all
-    4  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPI/_git/ECGBMobileAPI
-    5  git push -u origin --all
-    6  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPP/_git/ECGBMobileAPP
-    7  git push -u origin --all
-    8  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPP/_git/ECGBMobileAPP git push -u origin --all
     9  git push -u origin --all
    10  git reset --soft HEAD^
    11  git reset --soft HEAD^
