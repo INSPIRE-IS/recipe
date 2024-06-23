@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 7.3.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },    
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL":"http://appgate.elcb.co.za:9888/MidasMobiGo/rest/MidasMobiGoService/"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

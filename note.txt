@@ -1,0 +1,142 @@
+ 1  git status
+    2  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPI/_git/ECGBMobileAPI
+    3  git push -u origin --all
+    4  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPI/_git/ECGBMobileAPI
+    5  git push -u origin --all
+    6  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPP/_git/ECGBMobileAPP
+    7  git push -u origin --all
+    8  git remote add origin https://JLong0961@dev.azure.com/JLong0961/ECGBMobileAPP/_git/ECGBMobileAPP git push -u origin --all
+    9  git push -u origin --all
+   10  git reset --soft HEAD^
+   11  git reset --soft HEAD^
+   12  git init
+   13  git commit start
+   14  git status
+   15  git add .
+   16  git commit
+   17  git status
+   18  git reset --soft HEAD^
+   19  git init
+   20  dir /b >components.txt
+   21  expo init DoneWithIt
+   22  expo init DoneWithIt --blank
+   23  npx expo start
+   24  npx expo
+   25  npx expo init DoneWithIt --blank
+   26  npx expo init DoneWithIt
+   27  npx create-expo-app --blank
+
+
+
+npx expo install --fix
+
+
+npx expo login
+
+
+npx expo start
+
+
+
+
+
+
+
+
+   28  npx create-expo-app
+   29  expo init DoneWithIt
+   30  node -v
+   31  npm i -g expo-cli
+   32  npm i -g expo-cli@3.15.6
+   33  npm i -g expo-cli@~3.15
+   34  expo init DoneWithIt
+   35  expo init DoneWithIt --blank
+   36  npx create-expo-app@latest MidasMobii --template tabs@49
+   37  expo create-expo expoRoutingEx -t
+   38  npx create-expo expoRoutingEx -t
+   39  npx create-expo-app Examples -t
+   40  npx create-expo-app MidasMobi -t
+   41  eas login
+   42  npm install -g eas-cli
+   43  eas login
+   44  npx eas login
+   45  npx eas login
+   46  npx eas build:configure
+   47  eas build:configure
+   48  npx eas build
+   49  npx eas build --local
+   50  npx eas build --local
+   51  npx eas build
+   52  npx expo start -c
+   53  npx eas build -p android --profile preview1
+   55  npx eas build
+   56  git status
+   57  git add .
+   58  git status
+
+   62  git commit
+   63  git status
+   64  npx eas build --local
+   65  npx eas build
+   66  npx expo start -c
+   67  npx expo start -c
+   68  npx eas build
+   69  npx expo start -c
+   70  adb devices
+   71  npx expo start -c
+   72  history
+
+
+
+
+
+Enable USB debugging on your device.
+
+Connect the device to computer
+
+Use these commands:
+
+Get the "device id"
+
+adb devices
+
+adb -s "device id" logcat
+adb -d logcat
+Run log with parameters like this:
+
+adb -s "0123456789ABCDEF" logcat MyTag:D *:S
+
+adb logcat -v time > log.txt
+
+
+
+
+https://stackoverflow.com/questions/77706742/regeneratorruntime-is-not-defined-error-in-react-speech-recognition-even-afer
+npm install --save core-js
+import 'regenerator-runtime/runtime';
+
+https://stackoverflow.com/questions/77157620/how-to-enable-http-requests-using-expo
+
+hope im not too late, if you're building your application with expo eas, you can still enable CleartextTraffic from your app.config.js or app.json with the expo-build-properties
+
+inside your app.config.js in plugins should be
+
+[
+  'expo-build-properties',
+  {
+    android: {
+      usesCleartextTraffic: true, // ? enable HTTP requests
+    },
+    ios: {
+      flipper: true,
+    },
+  },
+],
+for ios is
+
+  ios: {
+    infoPlist: {
+      NSAppTransportSecurity: { NSAllowsArbitraryLoads: true }, // ? enable HTTP requests
+    },
+    supportsTablet: true,
+  },
