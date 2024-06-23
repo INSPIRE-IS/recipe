@@ -15,7 +15,7 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_API_URL":"http://appgate.elcb.co.za:9888/MidasMobiGo/rest/MidasMobiGoService/"
+        "EXPO_PUBLIC_API_URL":""
       }
     }
   },

@@ -23,7 +23,7 @@ interface AuthProps{
 export const TOKEN_KEY = 'MyJWT';
 export const AUTH_STATE = 'AuthUser';
 // export const API_URL = process.env.EXPO_PUBLIC_API_URL;
-export const API_URL = "http://appgate.elcb.co.za:9888/MidasMobiGo/rest/MidasMobiGoService/";
+export const API_URL = "";
 const AuthContext = createContext<AuthProps>({});
 //axios.defaults.headers.common['ResponseType'] = 'application/json';
 //axios.defaults.headers.common['dataType'] = 'json';
